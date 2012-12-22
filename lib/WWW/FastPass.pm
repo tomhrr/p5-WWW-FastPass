@@ -7,7 +7,7 @@ use warnings;
 use Digest::SHA1 qw(sha1_base64);
 use Net::OAuth;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use constant SCRIPT_FRAGMENT => <<EOF;
 <script type="text/javascript">
