@@ -1,5 +1,8 @@
 Revision history for Perl extension WWW::FastPass.
 
+0.04    22 December 2012
+        - Minor text/makefile updates.
+
 0.03    13 July 2011
         - (Changelog update only: the comment for 0.02 states that
            Digest::SHA1 is core, but it is not. It being a dependency

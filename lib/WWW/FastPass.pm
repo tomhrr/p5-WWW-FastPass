@@ -7,7 +7,7 @@ use warnings;
 use Digest::SHA1 qw(sha1_base64);
 use Net::OAuth;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use constant SCRIPT_FRAGMENT => <<EOF;
 <script type="text/javascript">
@@ -144,7 +144,7 @@ Tom Harrison, E<lt>tomh5908@gmail.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Tom Harrison
+Copyright (C) 2011, 2012 by Tom Harrison
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,

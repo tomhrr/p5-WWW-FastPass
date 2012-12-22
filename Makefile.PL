@@ -4,6 +4,12 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'WWW::FastPass',
     VERSION_FROM      => 'lib/WWW/FastPass.pm',
+    LICENSE           => 'perl',
+    META_MERGE        => {
+        resources => {
+            repository => 'https://github.com/tomhrr/p5-WWW-FastPass'
+        }
+    },
     PREREQ_PM         => { 'Net::OAuth'   => 0,
                            'Digest::SHA1' => 0,
                            'URI'          => 0, },
